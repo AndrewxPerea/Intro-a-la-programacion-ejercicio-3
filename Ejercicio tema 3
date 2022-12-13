@@ -1,0 +1,15 @@
+public class Automovil {
+    public static void auto(String[] args) {
+        Auto miAuto = new Auto;
+        miAuto.Quitarllanta();
+        System.out.println(miAuto.llanta);
+    }
+
+    class Auto {
+        public int llanta = 0;
+
+        public void Quitarllanta() {
+            this.llanta--;
+        }
+    }
+}
