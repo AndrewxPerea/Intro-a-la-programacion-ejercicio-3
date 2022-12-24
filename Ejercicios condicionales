@@ -13,6 +13,30 @@ public class Main {
         }
         else
             System.out.println("negativo");
+        int numeroWhile=0;
+        while(numeroWhile < 3){
+            System.out.println("numeroWhile"+" " + numeroWhile);
+            numeroWhile++;
+        }
+        for (int i = 0; i < 3; i++) {
+            System.out.println(i);
+        }
+        String estacion = "verano";
+        int est = 0;
+        switch (est) {
+
+            case 1: estacion = "verano";
+                break;
+
+            case 2: estacion = "invierno";
+                break;
+            case 3: estacion = "otoño";
+                break;
+            case 4: estacion = "primavera";
+                break;
+
+        }
+        System.out.println(estacion);
     }
 
 }
